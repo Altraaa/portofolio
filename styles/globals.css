@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.burger-line {
+ @apply w-[30px] h-[2px] my-2 block bg-slate-950;
+}
+*{
+ @apply scroll-smooth transition duration-500;
+}
+
+.burger-active {
+ 
+
+}
+
+.navbar-fixed {
+ @apply fixed z-[9999];
+}
