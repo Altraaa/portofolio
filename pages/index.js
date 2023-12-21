@@ -69,7 +69,7 @@ export default function Home() {
                 <Image src={prj2} alt={'osis'} className='mt-8 rounded-xl'></Image>
                 <div className='py-8 px-2'>
                   <h3>
-                    <a className='block mb-3 font-semibold text-xl text-slate-950
+                    <a className='block cursor-pointer mb-3 font-semibold text-xl text-slate-950
                     hover:text-hover transition duration-300 truncate'>Organisasi Intra Sekolah (OSIS)</a>
                   </h3>
                   <p className='font-medium text-base text-prf mb-6 '>
@@ -87,7 +87,7 @@ export default function Home() {
                 <Image src={prj3} alt='pass' className='rounded-xl mt-8'></Image>
                 <div className='py-8 px-2'>
                   <h3>
-                    <a className='block mb-3 font-semibold text-xl text-slate-950
+                    <a className='block cursor-pointer mb-3 font-semibold text-xl text-slate-950
                     hover:text-hover transition duration-300 truncate'>Paskibra KANSA</a>
                   </h3>
                   <p className='font-medium text-base text-prf mb-6 '>
@@ -104,7 +104,7 @@ export default function Home() {
                 <Image src={prj1} alt='coding' className='mt-8 rounded-xl'></Image>
                 <div className='py-8 px-6'>
                   <h3>
-                    <a href="#" className='block mb-3 font-semibold text-xl text-slate-950
+                    <a className='block mb-3 cursor-pointer font-semibold text-xl text-slate-950
                     hover:text-hover transition duration-300 truncate'>Basic Programming</a>
                   </h3>
                   <p className='font-medium text-base text-prf mb-6 '>
@@ -332,13 +332,13 @@ export default function Home() {
                     <ul className='text-gray mt-[30px] space-y-5'>
                       <li className='hover:underline flex space-x-2 text-secbg'>
                       <Image src={ft1} width={25} height={25} /> <a href="https://wa.me/+6289680854445" target='_blank'>+6289680854445</a></li>
-                      <li className='hover:underline flex space-x-3 text-secbg'>
+                      <li className='hover:underline cursor-pointer flex space-x-3 text-secbg'>
                       <Image src={ft2} width={25} height={25} /> <a target='_blank'>aldimks7464@gmail.com</a> </li>
                       <li className='hover:underline flex space-x-3 text-secbg'>
                       <Image src={ft5} width={25} height={25} /> <a href="https://www.smkn1denpasar.sch.id/" target='_blank'>SMK Negeri 1 Denpasar</a> </li>
-                      <li className='hover:underline flex space-x-3 text-secbg'>
+                      <li className='hover:underline cursor-pointer flex space-x-3 text-secbg'>
                       <Image src={ft3} width={25} height={25} /> <a target='_blank'>Jln. A. Yani Utara</a> </li>
-                      <li className='hover:underline flex space-x-3 text-secbg'>
+                      <li className='hover:underline cursor-pointer flex space-x-3 text-secbg'>
                       <Image src={ft4} width={25} height={25} /> <a target='_blank'>Denpasar - Bali, Indonesia </a></li>
                     </ul>
                 </div>
@@ -350,7 +350,7 @@ export default function Home() {
                       <li className='hover:underline flex space-x-4 text-secbg'>
                       <Image src={ft7} width={25} height={25} /> <a href="https://github.com/Altraaa" target='_blank'>Github</a></li>
                       <li className='hover:underline flex space-x-4 text-secbg' target='_blank'>
-                      <Image src={ft8} width={25} height={25} /> <a href="#">Vercel</a></li>
+                      <Image src={ft8} width={25} height={25} /> <a target='blank' href="https://vercel.com/altraa-projects">Vercel</a></li>
                       <li className='hover:underline flex space-x-4 text-secbg' target='_blank'>
                       <Image src={ft9} width={25} height={25} /> <a href="https://x.com/Karlfreyy_?t=1WBSWFtOCylOr4m63bLTqw&s=08" target='_blank'>Twitter</a></li>
                       <li className='hover:underline flex space-x-4 text-secbg'>
