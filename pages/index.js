@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Image from 'next/image'
 import profile from '../pages/source/gntg.png'
 import prj1 from '../pages/source/cdg1.jpg'
@@ -17,15 +18,11 @@ import ft7 from '../pages/source/github.svg'
 import ft8 from '../public/vercel.svg'
 import ft9 from '../pages/source/twitter.svg'
 import ft10 from '../pages/source/facebook.svg'
-import cpy from '../pages/source/copyright.svg'
-import Navbar from '../pages/Navbar'
-
 
 export default function Home() {
   return (
     <>
     <title>Altraa - Portofolio Website</title>
-    <Navbar />
       <main>
       {/* HEADER START */}
       <section id="home" className="pt-36 lg:py-24 bg-primarybg">
@@ -40,7 +37,7 @@ export default function Home() {
                         Studying at SMK Negeri 1 Denpasar by taking
                         a major engaged in the IT field precisely in the Engineering section of 
                         a software, with the name of the department
-                        <a href="#" className="underline italic hover:text-hover transition duration-300 ease-in-out"> "Rekayasa Perangkat Lunak"</a> (RPL).</p>
+                        <a target='_blank' href="https://en.wikipedia.org/wiki/Software_engineering" className="hover:underline hover:text-hover transition duration-300 ease-in-out"> Rekayasa Perangkat Lunak</a> (RPL).</p>
 
                     <button className='text-base font-semibold text-white py-3 px-8 border-solid bg-icon rounded-lg
                     hover:bg-violet-700 transition duration-300 ease-in-out hover:shadow-lg'>
@@ -72,7 +69,7 @@ export default function Home() {
                 <Image src={prj2} alt={'osis'} className='mt-8 rounded-xl'></Image>
                 <div className='py-8 px-2'>
                   <h3>
-                    <a href="#" className='block mb-3 font-semibold text-xl text-slate-950
+                    <a className='block mb-3 font-semibold text-xl text-slate-950
                     hover:text-hover transition duration-300 truncate'>Organisasi Intra Sekolah (OSIS)</a>
                   </h3>
                   <p className='font-medium text-base text-prf mb-6 '>
@@ -81,7 +78,7 @@ export default function Home() {
                     can be learned besides class.
                   </p>
                   <button className='text-base font-medium text-white py-2 px-4 border-solid bg-icon rounded-lg
-                    hover:bg-violet-700 transition duration-300 ease-in-out hover:shadow-lg'><a href="" className='flex items-center'>Find out more</a></button>
+                    hover:bg-violet-700 transition duration-300 ease-in-out hover:shadow-lg'><a target='blank' href="https://www.instagram.com/osis_skensa/?utm_source=ig_web_button_share_sheet&igshid=YzAwZjE1ZTI0Zg==" className='flex items-center'>Find out more</a></button>
                 </div>
               </div>
             </div>
@@ -90,7 +87,7 @@ export default function Home() {
                 <Image src={prj3} alt='pass' className='rounded-xl mt-8'></Image>
                 <div className='py-8 px-2'>
                   <h3>
-                    <a href="#" className='block mb-3 font-semibold text-xl text-slate-950
+                    <a className='block mb-3 font-semibold text-xl text-slate-950
                     hover:text-hover transition duration-300 truncate'>Paskibra KANSA</a>
                   </h3>
                   <p className='font-medium text-base text-prf mb-6 '>
@@ -98,7 +95,7 @@ export default function Home() {
                     namely Paskibra KANSA. With the hope of adding knowledge for me.
                   </p>
                   <button className='text-base font-medium text-white py-2 px-4 border-solid bg-icon rounded-lg
-                    hover:bg-violet-700 transition duration-300 ease-in-out hover:shadow-lg'><a href="" className='flex items-center'>Find out more</a></button>
+                    hover:bg-violet-700 transition duration-300 ease-in-out hover:shadow-lg'><a target='blank' href="https://www.instagram.com/paskibrakansa/?utm_source=ig_web_button_share_sheet&igshid=YzAwZjE1ZTI0Zg==" className='flex items-center'>Find out more</a></button>
                 </div>
               </div>
             </div>
@@ -115,7 +112,7 @@ export default function Home() {
                     improve my skills for my future job needs.
                   </p>
                   <button className='text-base font-medium text-white py-2 px-4 border-solid bg-icon rounded-lg
-                    hover:bg-violet-700 transition duration-300 ease-in-out hover:shadow-lg'><a href="" className='flex items-center'>Find out more</a></button>
+                    hover:bg-violet-700 transition duration-300 ease-in-out hover:shadow-lg'><a target='blank' href="https://www.coursera.org/articles/what-is-programming" className='flex items-center'>Find out more</a></button>
                 </div>
               </div>
             </div>
@@ -142,7 +139,7 @@ export default function Home() {
                   </div>
                   <h4 className='my-6 mx-0 font-semibold text-base'>Figma</h4>
                   <p>
-                    Quite adept at using an application / software called "Figma" to 
+                    Quite adept at using an application / software called Figma to 
                     create or design a website or application software that I will create.
                   </p>
               </div>
@@ -233,7 +230,7 @@ export default function Home() {
                   and also this website still uses the basic syntax syntax of the two tools I mentioned.
                 </p>
                 <button className='text-base mt-6 font-medium text-white py-2 px-5 border-solid bg-icon rounded-lg
-                    hover:bg-violet-700 transition duration-300 ease-in-out hover:shadow-lg'><a href="" target="_blank" className='flex items-center'>See Project</a></button>
+                    hover:bg-violet-700 transition duration-300 ease-in-out hover:shadow-lg'><a href="https://altraaa.github.io/webport/" target="_blank" className='flex items-center'>See Project</a></button>
               </div>
               </div>
             </div>
@@ -252,7 +249,7 @@ export default function Home() {
                   in this project I made a case like making a website for my client and had to match his request.
                 </p>
                 <button className='text-base mt-6 font-medium text-white py-2 px-5 border-solid bg-icon rounded-lg
-                    hover:bg-violet-700 transition duration-300 ease-in-out hover:shadow-lg'><a href="" target="_blank" className='flex items-center'>See Project</a></button>
+                    hover:bg-violet-700 transition duration-300 ease-in-out hover:shadow-lg'><a href="https://altraaa.github.io/linkweb/" target="_blank" className='flex items-center'>See Project</a></button>
               </div>
               </div>
             </div>
@@ -370,6 +367,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      
     </>
   )
 }

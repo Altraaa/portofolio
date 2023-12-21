@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { useState } from "react";
 import Image from "next/image";
 import bka from '../pages/source/bars-solid.svg'
@@ -21,7 +22,6 @@ const Navbar = () => {
           <div className='py-3 h-24 md:py-4 max-w-6xl flex flex-row justify-between 
             items-center md:max-w-2xl lg:mx-8 xl:mx-0 lg:max-w-6xl'>
           <div className='flex'>
-            <link rel="stylesheet" href="/" />
             <a href='#home' className='flex py-2'>
               <h2 className='font-semibold leading-[160%]'>Altraaa</h2>
             </a>
@@ -76,7 +76,7 @@ const Navbar = () => {
         </div>
         </div>
         {navbar && (
-          <div className="h-screen flex md:hidden justify-end transition animate-blur duration-700 ease-in-out">
+          <div className="h-80 flex md:hidden justify-end transition animate-blur duration-700 ease-in-out">
             <div className="md:hidden flex animate-geser items-center justify-center w-52 bg-secbg/75 backdrop-blur-sm text-center rounded-xl">
               
               <ul className='flex flex-col space-y-10 text-xl font-normal text-center align-middle'>
