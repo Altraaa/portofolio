@@ -6,10 +6,10 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 export default function App({ Component, pageProps }) {
   return (
     <>
-    <Navbar />
-  <Component {...pageProps} />
-  <SpeedInsights />
-  <Analytics />
+      <Navbar />
+      <Component {...pageProps} />
+      <SpeedInsights />
+      <Analytics />
     </>
   )
 }
