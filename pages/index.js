@@ -354,7 +354,7 @@ export default function Home() {
                       <li className='hover:underline flex space-x-4 text-secbg' target='_blank'>
                       <Image src={ft9} width={25} height={25} /> <a href="https://x.com/Karlfreyy_?t=1WBSWFtOCylOr4m63bLTqw&s=08" target='_blank'>Twitter</a></li>
                       <li className='hover:underline flex space-x-4 text-secbg'>
-                      <Image src={ft10} width={25} height={25} /> <a href="https://www.facebook.com/aldiansah.saputra.353?mibextid=ZbWKwL" target='_blank'>Fcebook</a></li>
+                      <Image src={ft10} width={25} height={25} /> <a href="https://www.facebook.com/aldiansah.saputra.353?mibextid=ZbWKwL" target='_blank'>Facebook</a></li>
                     </ul>
                 </div>
               </div>
